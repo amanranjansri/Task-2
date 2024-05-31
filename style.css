@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cta-btn {
+    background-color: #e63946;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #d62839;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.features .feature-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.features .feature-item {
+    text-align: center;
+}
+
+.features .feature-item img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+.gallery .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.gallery .gallery-grid img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.specifications table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.specifications table th,
+.specifications table td {
+    padding: 1rem;
+    border: 1px solid #333;
+    text-align: left;
+}
+
+.specifications table th {
+    background-color: #333;
+}
+
+.cta {
+    text-align: center;
+    background-color: #444;
+    padding: 4rem 0;
+}
+
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 1rem 0;
+}
